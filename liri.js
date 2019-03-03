@@ -11,7 +11,6 @@ var axios = require("axios");
 var input = process.argv;
 var action = input[2];
 var userInput = input[3];
-// var userInput = input.slice(3).join(" ");
 
 switch (action) {
     //BandsInTown API
