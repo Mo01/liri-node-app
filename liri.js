@@ -66,7 +66,7 @@ function searchSpotify(song) {
         .then(function (response) {
           
             if (response.tracks.total === 0) {
-                searchSpotify("Sway");
+                searchSpotify('"The Sign" by Ace of Base');
 
             } else {
                 console.log(`Artist: ${ response.tracks.items[0].artists[0].name}`);
