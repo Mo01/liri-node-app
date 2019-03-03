@@ -29,3 +29,4 @@ spotify-this-song, name
 spotify-this-song, name
 movie-this, tom
 concert-this, tom
+spotify-this-song, tom
