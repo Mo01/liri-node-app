@@ -20,7 +20,7 @@ switch (action) {
         break;
     //Spotify API
     case "spotify-this-song":
-        searchSpotify(userInput);
+        searchSpotify(userInput); 
         logIt();
         break;
 //OMDb API
